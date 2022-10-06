@@ -3,4 +3,15 @@
     padding:0;                  /* Suppression des marges internes */
     background-color: #ccc;     /* Ajout de la couleur d'arrière-plan */
     justify-content: center     /* Alignements des liens dans le menu */
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
 }
