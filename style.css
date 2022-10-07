@@ -132,6 +132,7 @@
       background-color: #F8BBD0;
       grid-area: main;
   }
+  
   footer {
     display: flex;
     justify-content: center;
