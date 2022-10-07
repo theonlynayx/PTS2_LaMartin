@@ -34,7 +34,7 @@
   }
   
   nav > ul > li:hover > a{
-    color: 	#EE82EE;
+    color: 	#ca91ff;
   }
   
   nav > ul > li > a {
@@ -89,20 +89,20 @@
   @keyframes apparitionSousMenu {
     0% {
       box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
-      border-top: 3px solid #DA70D6;
+      border-top: 3px solid #c87dfa;
     }
     30% {
       box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
     }
     100% {
       max-height: 50em;
-      border-top: 3px solid #DA70D6;
+      border-top: 3px solid #c87dfa;
       box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
     }
   }
   
   .sous-menu > li:hover {
-    background-color: rgba(221,160,221, 0.3);
+    background-color: rgba(200, 125, 250, 0.3);
   }
   
   .sous-menu > li > a {
