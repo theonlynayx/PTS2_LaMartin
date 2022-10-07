@@ -135,6 +135,8 @@
       grid-area: main;
   }
 
+  .clear {clear:both}
+  
   .block {
     width:400px;
     margin:0 auto;
