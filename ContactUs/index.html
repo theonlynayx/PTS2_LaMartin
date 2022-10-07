@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>PTS2 La Martin</title>
     <link rel="stylesheet" href="../style.css">
+    <script type="text/javascript" src="./Contact.js"></script>
+    
     
   </head>
   <body>
@@ -35,7 +37,37 @@
     </nav>
 
     <main>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore rerum dignissimos nisi sint at quam expedita cupiditate culpa, exercitationem necessitatibus reprehenderit magnam voluptates iste, non dolorem accusamus magni modi nesciunt.</p>
+      <div class="block">
+        <div class="done">
+        <b>Thank you !</b> We have received your message. 
+        </div>
+          <div class="form">
+          <form method="post" action="process.php">
+          <div class="element">
+            <label>Name</label>
+            <input type="text" name="name" class="text" />
+          </div>
+          <div class="element">
+            <label>Email</label>
+            <input type="text" name="email" class="text" />
+          </div>
+          <div class="element">
+            <label>Website</label>
+            <input type="text" name="website" class="text" />
+          </div>
+          <div class="element">
+            <label>Comment</label>
+            <textarea name="comment" class="text textarea" /></textarea>
+          </div>
+          <div class="element">
+            
+            <input type="submit" id="submit"/>
+            <div class="loading"></div>
+          </div>
+          </form>
+          </div>
+        </div>
+        <div class="clear"></div> 
     </main>
     <footer>
       <font size="1">Nayx - 2022 - opensource</font>
