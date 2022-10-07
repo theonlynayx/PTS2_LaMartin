@@ -1,4 +1,15 @@
-:root{
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+      display: grid;
+      grid-gap: 0px;
+      grid-template-columns: 1fr;
+      grid-template-areas:"up" "main" "footer";
+      grid-template-rows: 60px auto 40px;
+  }
+  :root{
     --hauteur-menu: 60px;
   }
   
@@ -13,6 +24,8 @@
     font-size: 18px;
     position: sticky;
     top: 0;
+    grid-area: up;
+    height: var(--hauteur-menu);
   }
   
   nav > ul {
@@ -117,19 +130,8 @@
     color: white;
   }
 
-  html, body {
-    margin: 0;
-    height: 100%;
-  }
-  body {
-      display: grid;
-      grid-gap: 10px;
-      grid-template-columns: 1fr;
-      grid-template-areas: "main" "footer";
-      grid-template-rows: 1fr 80px;
-  }
   main {
-      background-color: #F8BBD0;
+      background-color: #dddddd;
       grid-area: main;
   }
 
@@ -139,4 +141,10 @@
     padding: 10px;
     background-color: #c87dfa;
     color: #fff;
-}
+  }
+
+  .content {
+    display:flex;
+    position:fixed;
+    top: 70px; 
+  }
