@@ -116,3 +116,27 @@
   .sous-menu > li:hover > a {
     color: white;
   }
+
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  body {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr;
+      grid-template-areas: "main" "footer";
+      grid-template-rows: 1fr 80px;
+  }
+  main {
+      background-color: #F8BBD0;
+      grid-area: main;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #c87dfa;
+    color: #fff;
+    grid-area: footer;
+}
