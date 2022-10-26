@@ -8,34 +8,33 @@
     <meta property="og:image" content="">
     <meta property="og:type" content="website">
     <meta name="description" content="Site de classe crée par un élève pour le fun. Tenez en pas compte.">
-    <link rel="icon" type="image/png" sizes="1058x1054" href="assets/img/logo%20TONYO.png">
-    <link rel="icon" type="image/png" sizes="1058x1054" href="assets/img/logo%20TONYO.png">
-    <link rel="icon" type="image/png" sizes="1058x1054" href="assets/img/logo%20TONYO.png">
-    <link rel="icon" type="image/png" sizes="1058x1054" href="assets/img/logo%20TONYO.png">
-    <link rel="icon" type="image/png" sizes="1058x1054" href="assets/img/logo%20TONYO.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
 </head>
 
-<body style="background: url(&quot;assets/img/mountain_bg.jpg&quot;);">
+<body>
     <header class="header-dark">
-        <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
+        <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search" style="background: #E0B0FF;">
             <div class="container"><a class="navbar-brand" href="../">PTS2</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="navbar-nav">
-                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="../Matiere/">Matière</a>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown">Matière</a>
                             <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a><a class="dropdown-item" href="#">Menu Item</a><a class="dropdown-item" href="#">Menu Item</a></div>
                         </li>
-                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="../Utils/">Utiles</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a><a class="dropdown-item" href="#">Menu Item</a><a class="dropdown-item" href="#">Menu Item</a></div>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown">Utiles</a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="Utils/EDT/">Emploi du temps</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a><a class="dropdown-item" href="#">Menu Item</a><a class="dropdown-item" href="#">Menu Item</a></div>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="/">A propos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="About/">A propos</a></li>
                         <li class="nav-item"></li>
                         <li class="nav-item"></li>
                     </ul>
@@ -46,14 +45,29 @@
             </div>
         </nav>
     </header>
-    <div class="container hero">
-        <div class="row">
-            <div class="col-md-8 offset-md-2">
-                <h1 class="text-center" style="color: var(--bs-white);">Bienvenue sur le site des PTS2</h1>
-                <div class="ratio ratio-16x9"><iframe></iframe></div>
+    <section class="article-list">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Action rapide</h2>
+                <p class="text-center">Choisis ou tu souhaite aller</p>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
+                    <h3 class="name">Dernier cours</h3>
+                    <p class="description">Mis à jour au plus vite...<br>Si il manque un cour n'hésiter pas me le faire savoir.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="Utils/EDT/"><img class="img-fluid" src="assets/img/building.jpg"></a>
+                    <h3 class="name">Emploi du temps</h3>
+                    <h3 class="name"></h3>
+                    <p class="description"></p><a class="action" href="Utils/EDT/"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/loft.jpg"></a>
+                    <h3 class="name">Devoirs</h3>
+                    <p class="description">Ne te prends pas à la dernière seconde pour faire tes devoirs !</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <footer class="footer-dark">
         <div class="container">
             <div class="row">

@@ -1,12 +1,13 @@
 .header-dark {
-  /*background: url(../../assets/img/mountain_bg.jpg) #444;*/
+  /*background: url(mountain_bg.jpg) #444;*/
   background-size: cover;
   padding-bottom: 80px;
 }
 
 @media (min-width:768px) {
   .header-dark {
-    padding-bottom: 120px;
+    background: #CF9FFF;
+    padding-bottom: 0px;
   }
 }
 
@@ -94,7 +95,7 @@
 }
 
 .header-dark .navbar .dropdown-menu .dropdown-item:focus, .header-dark .navbar .dropdown-menu .drodown-item:hover {
-  background: #ebeff1;
+  background: #d1b7fc;
 }
 
 .header-dark .navbar .action-button, .header-dark .navbar .action-button:active {
